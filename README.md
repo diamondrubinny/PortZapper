@@ -6,6 +6,8 @@ A cross-platform CLI utility to instantly find and kill processes locking a netw
 
 Developers often encounter the `EADDRINUSE` error when restarting servers. PortZapper solves this by identifying the process holding the port and terminating it with a single command.
 
+<p align="center"><img src="docs/screenshots/demo.webp" width="820" alt="Terminal: npm run dev fails with EADDRINUSE on port 3000; zapper 3000 finds node (PID 1697), asks for confirmation and terminates it; running zapper 3000 again reports no process on the port"></p>
+
 ## Features
 
 * **Cross-Platform:** Works on Windows, macOS, and Linux.
